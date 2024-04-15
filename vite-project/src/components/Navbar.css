@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 48px;
-  color: var #ff6060;
+  color: #ff6060;
 }
 
 .navbar a {
@@ -29,6 +29,6 @@
   gap: 57px;
 }
 
-.navbar a.active {
+.navbar a.activeNavLink {
   text-decoration: underline;
 }
