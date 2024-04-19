@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 48px;
+  padding: 20px 80px;
   color: #ff6060;
 }
 
@@ -13,6 +13,7 @@
   font-size: 24px;
   font-weight: 500;
   text-align: right;
+  white-space: nowrap;
 }
 
 .navbar a:hover {
@@ -31,4 +32,28 @@
 
 .navbar a.activeNavLink {
   text-decoration: underline;
+}
+
+.navbarLogo {
+  flex-shrink: 1;
+  min-width: 50px;
+}
+
+.navbarLogo img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 669px) {
+  .navbar a {
+    font-size: 12px;
+  }
+
+  .navbar ul {
+    gap: 20px;
+  }
+
+  .navbar {
+    padding: 20px 20px;
+  }
 }

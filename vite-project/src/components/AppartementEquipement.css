@@ -1,0 +1,32 @@
+h4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  border: 1px solid #ff6060;
+  color: white;
+  background: #ff6060;
+  border-radius: 10px;
+  padding: 10px 20px 10px 10px;
+  margin-bottom: 0;
+}
+
+.equipement {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  text-align: left;
+  background: #f6f6f673;
+  padding: 10px 20px 10px 10px;
+  margin-top: 0;
+  width: auto;
+}
+
+.chevron {
+  font-size: x-large;
+  cursor: pointer;
+}

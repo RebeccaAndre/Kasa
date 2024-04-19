@@ -1,0 +1,85 @@
+.appartement__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 0;
+  font-family: montserrat, sans-serif;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 18px;
+  color: black;
+  margin-top: 5px;
+  font-family: montserrat, sans-serif;
+  font-weight: 500;
+}
+
+.appartement__tags {
+  display: flex;
+  gap: 10px;
+}
+
+.appartement__tags span {
+  background: #ff6060;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 40px;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: right;
+  margin-top: 0;
+}
+
+.appartement-page__owner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 12%;
+}
+
+.appartement-page__owner-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 23px;
+}
+
+.appartement-page__owner-badge {
+  border: 1px solid #c4c4c4;
+  width: 100%;
+  height: 64px;
+  border-radius: 50px;
+  background: #c4c4c4;
+}
+
+.appartement-page__owner-stars {
+  width: 100%;
+  font-size: x-large;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style pour les étoiles actives */
+.fa-star.active {
+  color: #ff6060;
+}
+
+/* Style pour les étoiles inactives */
+.fa-star.inactive {
+  color: #e3e3e3;
+}

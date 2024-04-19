@@ -17,14 +17,7 @@
   min-width: 200px;
 }
 
-@media screen and (max-width: 768px) {
-  .flat {
-    flex-basis: 100%;
-  }
-}
-
 .flat-content {
-  /* margin-top: auto; */
   width: 47%;
   font-family: Montserrat;
   font-size: 18px;
@@ -41,8 +34,30 @@
 .flat a {
   text-decoration: none;
 }
-@media screen and (max-width: 768px) {
-  .flat-content {
-    width: 27%;
+
+@media screen and (max-width: 669px) {
+  .background-image h1 {
+    font-size: 32px;
+  }
+  /* .background-image {
+    justify-content: flex-start;
+  } */
+}
+
+@media screen and (max-width: 400px) {
+  .background-image h1 {
+    font-size: 24px;
+    padding-left: 20px;
+    text-align: left;
+    width: 68%;
+  }
+  .background-image {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .flat {
+    flex-basis: 100%;
   }
 }

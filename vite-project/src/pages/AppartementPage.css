@@ -1,0 +1,9 @@
+.appartement-page {
+  color: #ff6060;
+}
+
+.appartement-page__details {
+  display: flex;
+  justify-content: space-between;
+  gap: 90px;
+}

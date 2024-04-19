@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
-import Layout from "./components/Layout"; // Assurez-vous d'importer Layout
+import HomePage from "./pages/HomePage";
+import AppartementPage from "./pages/AppartementPage";
+import Layout from "./miseEnPage/Layout";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -10,8 +11,8 @@ const router = createBrowserRouter([
     // Utilisation de Layout (mise en page) comme élément de route principale
     element: <Layout />,
     children: [
-      { index: true, element: <App /> },
-      { path: "/flat", element: <h1>Fiche-logement</h1> },
+      { index: true, element: <HomePage /> },
+      { path: "/flat", element: <AppartementPage /> },
       { path: "/about", element: <h1>A propos</h1> },
     ],
     errorElement: <h1>404 Not Found</h1>,
