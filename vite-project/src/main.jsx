@@ -3,6 +3,8 @@ import ReactDOM from "react-dom/client";
 import HomePage from "./pages/HomePage";
 import AppartementPage from "./pages/AppartementPage";
 import Layout from "./miseEnPage/Layout";
+import AboutPage from "./pages/AboutPage";
+import ErrorPageNotFound from "./pages/ErrorPageNotFound";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -13,9 +15,9 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <HomePage /> },
       { path: "/flat", element: <AppartementPage /> },
-      { path: "/about", element: <h1>A propos</h1> },
+      { path: "/about", element: <AboutPage /> },
     ],
-    errorElement: <h1>404 Not Found</h1>,
+    errorElement: <ErrorPageNotFound />,
   },
 ]);
 

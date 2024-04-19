@@ -1,0 +1,71 @@
+.flat {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 28%;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ff6060;
+  height: 340px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(10, 10, 10, 0) 42%,
+      rgba(4, 4, 4, 0.205) 99.99%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png"); /* Ajoutez votre URL d'image ici */
+  background-size: cover; /* Assure que l'image de fond couvre l'espace disponible */
+  background-position: center; /* Centre l'image de fond */
+  min-width: 200px;
+  position: relative; /* Pour positionner le texte par-dessus l'image de fond */
+  overflow: hidden; /* Assure que tout contenu supplémentaire est masqué */
+}
+
+.flat-content {
+  width: 54%;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.flat-content:hover {
+  cursor: pointer;
+}
+
+.flat a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+/* @media screen and (max-width: 669px) {
+
+} */
+
+@media screen and (max-width: 400px) {
+  .background-image h1 {
+    font-size: 24px;
+    padding-left: 20px;
+    text-align: left;
+  }
+  .background-image {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .flat {
+    flex-basis: 100%;
+  }
+  .background-image h1 {
+    font-size: 32px;
+  }
+}

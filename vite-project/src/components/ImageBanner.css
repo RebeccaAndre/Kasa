@@ -5,7 +5,8 @@
 
 .appartement-page__image {
   width: 100%;
-  height: auto;
+  /* height: auto; */
   object-fit: cover;
   margin-bottom: 24.12px;
+  min-height: 200px;
 }

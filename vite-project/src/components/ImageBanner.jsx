@@ -1,6 +1,6 @@
-import "./AppartementPageBanner.css";
+import "./ImageBanner.css";
 
-function AppartementPageBanner() {
+function ImageBanner() {
   return (
     <div className="appartement-page__image-container">
       <img
@@ -12,4 +12,4 @@ function AppartementPageBanner() {
   );
 }
 
-export default AppartementPageBanner;
+export default ImageBanner;

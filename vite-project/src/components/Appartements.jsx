@@ -1,15 +1,15 @@
 import "./Appartements.css";
-import Flat from "./Flat";
+import FlatCard from "./FlatCard";
 
 function Appartements() {
   return (
     <div className="gallery">
-      <Flat />
-      <Flat />
-      <Flat />
-      <Flat />
-      <Flat />
-      <Flat />
+      <FlatCard />
+      <FlatCard />
+      <FlatCard />
+      <FlatCard />
+      <FlatCard />
+      <FlatCard />
     </div>
   );
 }

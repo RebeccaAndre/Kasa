@@ -1,6 +1,6 @@
-import "./AppartementDescription.css";
+import "./DescriptionPanel.css";
 
-function AppartementDescription() {
+function DescriptionPanel() {
   return (
     <div className="appartement-page__description">
       <h4>
@@ -18,4 +18,4 @@ function AppartementDescription() {
   );
 }
 
-export default AppartementDescription;
+export default DescriptionPanel;

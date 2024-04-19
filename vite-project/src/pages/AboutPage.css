@@ -1,0 +1,10 @@
+.about-page__header {
+  width: 77%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 748px) {
+  .about-page__header {
+    width: auto;
+  }
+}
