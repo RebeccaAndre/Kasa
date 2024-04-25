@@ -1,20 +1,31 @@
-import "./FlatCard.css";
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import "./FlatCard.css";
 
-function FlatCard() {
+function FlatCard({ appartement }) {
   return (
-    <div className="flat">
-      <Link to="/flat">
-        {/* <div className="flat-image">
-          <img
-            src="/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png"
-            alt="appartement"
-          /> */}
-        <div className="flat-content">Titre de la location</div>
-        {/* </div> */}
+    <div
+      className="flat"
+      style={{ backgroundImage: `url(${appartement.cover})` }}
+    >
+      <Link
+        to={{
+          pathname: `/flat/${appartement.identifiant}`,
+          state: { appartement },
+        }}
+      >
+        <div className="flat-content">{appartement.title}</div>
       </Link>
     </div>
   );
 }
 
+FlatCard.propTypes = {
+  appartement: PropTypes.shape({
+    identifiant: PropTypes.string.isRequired,
+    cover: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    equipements: PropTypes.arrayOf(PropTypes.string).isRequired, // Assurez-vous d'inclure 'equipements' dans PropTypes
+  }).isRequired,
+};
 export default FlatCard;

@@ -8,18 +8,18 @@
   background-color: #ff6060;
   height: 340px;
   background-image: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(10, 10, 10, 0) 42%,
-      rgba(4, 4, 4, 0.205) 99.99%,
-      rgba(0, 0, 0, 0.5) 100%
-    ),
-    url("/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png"); /* Ajoutez votre URL d'image ici */
-  background-size: cover; /* Assure que l'image de fond couvre l'espace disponible */
-  background-position: center; /* Centre l'image de fond */
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(10, 10, 10, 0) 42%,
+    rgba(4, 4, 4, 0.205) 99.99%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  background-size: cover;
+  background-position: center;
   min-width: 200px;
-  position: relative; /* Pour positionner le texte par-dessus l'image de fond */
-  overflow: hidden; /* Assure que tout contenu supplémentaire est masqué */
+  position: relative;
+  overflow: hidden;
+  flex-grow: 1;
 }
 
 .flat-content {
@@ -46,10 +46,6 @@
   display: flex;
 }
 
-/* @media screen and (max-width: 669px) {
-
-} */
-
 @media screen and (max-width: 400px) {
   .background-image h1 {
     font-size: 24px;
@@ -69,3 +65,59 @@
     font-size: 32px;
   }
 }
+
+/* Container parent qui contient les cartes (à ajouter dans le CSS du parent si pas déjà présent)
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: space-between;
+}
+
+.flat {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; 
+  flex-basis: calc(33.333% - 20px); 
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ff6060;
+  height: 340px;
+  background-size: cover;
+  background-position: center;
+  min-width: 200px; 
+  position: relative;
+  overflow: hidden;
+}
+
+.flat-content {
+  width: 100%;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.flat a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: block; 
+}
+
+@media screen and (max-width: 770px) {
+  .flat {
+    flex-basis: 100%; 
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .flat {
+    flex-basis: 100%; 
+  }
+} */

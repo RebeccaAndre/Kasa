@@ -1,15 +1,21 @@
-import "./Appartements.css";
+import { useState, useEffect } from "react";
 import FlatCard from "./FlatCard";
+import "./Appartements.css";
 
 function Appartements() {
+  const [appartements, setAppartements] = useState([]);
+
+  useEffect(() => {
+    fetch("/data.json")
+      .then((response) => response.json())
+      .then((data) => setAppartements(data));
+  }, []);
+
   return (
     <div className="gallery">
-      <FlatCard />
-      <FlatCard />
-      <FlatCard />
-      <FlatCard />
-      <FlatCard />
-      <FlatCard />
+      {appartements.map((appartement) => (
+        <FlatCard key={appartement.identifiant} appartement={appartement} />
+      ))}
     </div>
   );
 }

@@ -1,7 +1,6 @@
 import ImageBanner from "../components/ImageBanner";
 import DescriptionPanel from "../components/DescriptionPanel";
 import "./AboutPage.css";
-import Footer from "../miseEnPage/Footer";
 
 function AboutPage() {
   return (
@@ -13,7 +12,6 @@ function AboutPage() {
         <DescriptionPanel />
         <DescriptionPanel />
       </div>
-      <Footer />
     </>
   );
 }
