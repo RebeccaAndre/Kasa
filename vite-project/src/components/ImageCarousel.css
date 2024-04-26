@@ -17,11 +17,11 @@
 }
 
 .left-arrow {
-  left: 10px;
+  left: 20px;
 }
 
 .right-arrow {
-  right: 10px;
+  right: 20px;
 }
 
 .carousel-image {
@@ -37,6 +37,7 @@
   bottom: 70px;
   color: white;
   transform: translateX(-50%);
+  font-size: x-large;
 }
 
 @media screen and (max-width: 600px) {
