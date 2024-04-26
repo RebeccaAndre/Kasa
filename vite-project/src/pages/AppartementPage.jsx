@@ -78,7 +78,10 @@ function AppartementPage() {
         rating={parseInt(appartement.note)}
       />
       <div className="appartement-page__details">
-        <DescriptionPanel description={appartement.description} />
+        <DescriptionPanel
+          title="Description"
+          description={appartement.description}
+        />
         {appartement.equipment ? (
           <AppartementEquipement equipment={appartement.equipment} />
         ) : (

@@ -8,6 +8,7 @@
   padding: 30px 20px 30px 20px;
   margin-top: 0;
   line-height: 27px;
+  height: 70%;
 }
 
 .equipement {
@@ -19,6 +20,7 @@
   background: #f6f6f673;
   padding: 30px 20px 30px 20px;
   margin-top: 0;
+  height: 70%;
 }
 
 .chevron {
