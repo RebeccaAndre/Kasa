@@ -21,11 +21,12 @@
 
 import { useEffect, useState } from "react";
 import { useParams, useLocation } from "react-router-dom";
-import ImageBanner from "../components/ImageBanner";
+// import ImageBanner from "../components/ImageBanner";
 import AppartementPageHeader from "../components/AppartementPageHeader";
 import DescriptionPanel from "../components/DescriptionPanel";
 import AppartementEquipement from "../components/AppartementEquipement";
 import "./AppartementPage.css";
+import ImageCarousel from "../components/ImageCarousel";
 
 function AppartementPage() {
   const { id } = useParams();
@@ -69,7 +70,8 @@ function AppartementPage() {
   return (
     // Affichage des données de l'appartement si l'appartement est chargé
     <div className="appartement-page">
-      <ImageBanner image={appartement.cover} />
+      <ImageCarousel pictures={appartement.pictures} />
+      {/* <ImageBanner image={appartement.cover} /> */}
       <AppartementPageHeader
         title={appartement.title}
         location={appartement.location}
@@ -82,11 +84,7 @@ function AppartementPage() {
           title="Description"
           description={appartement.description}
         />
-        {appartement.equipment ? (
-          <AppartementEquipement equipment={appartement.equipment} />
-        ) : (
-          <p>No equipment available.</p>
-        )}
+        <AppartementEquipement equipment={appartement.equipment} />
       </div>
     </div>
   );

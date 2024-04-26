@@ -17,31 +17,6 @@
 
 // export default AppartementEquipement;
 
-// import "./AppartementEquipement.css";
-// import PropTypes from "prop-types";
-
-// function AppartementEquipement({ equipment }) {
-//   return (
-//     <div className="appartement-page__equipement">
-//       <h4>
-//         <span>Équipements</span>
-//         <i className="fa-solid fa-chevron-down chevron"></i>
-//       </h4>
-//       <ul className="equipement">
-//         {equipment.map((item, index) => (
-//           <li key={index}>{item}</li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// }
-
-// AppartementEquipement.propTypes = {
-//   equipment: PropTypes.arrayOf(PropTypes.string).isRequired,
-// };
-
-// export default AppartementEquipement;
-
 import { useState } from "react";
 import "./AppartementEquipement.css";
 import PropTypes from "prop-types";
