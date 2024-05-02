@@ -104,16 +104,29 @@ h3 {
     margin-bottom: 0;
   }
 
-  .appartement__tags span {
+  /* .appartement__tags span {
     font-size: 10px;
     text-align: center;
     padding: 5px 20px;
+  } */
+
+  .appartement__tags span {
+    font-size: 3vw;
+    text-align: center;
+    padding: 1px 4px;
+    flex-grow: 1;
   }
 
-  h4 {
+  /* h4 {
     font-size: 13px;
     font-weight: 700;
     text-align: left;
+  } */
+
+  h4 {
+    font-size: 5vw;
+    text-align: left;
+    padding: 3vw 6vw 3vw 6vw;
   }
 
   .appartement-page__owner-badge {

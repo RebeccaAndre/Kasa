@@ -24,7 +24,7 @@
       "Frigo",
       "WIFI"
     ],
-    "Mots clés": ["Batignolle", "Montmartre"]
+    "tags": ["Batignolle", "Montmartre"]
   },
   {
     "identifiant": "b9123946",
@@ -53,7 +53,7 @@
       "Cuisine équipée",
       "Télévision"
     ],
-    "Mots clés": ["Canal Saint Martin", "République", "Appartement"]
+    "tags": ["Canal Saint Martin", "République", "Appartement"]
   },
   {
     "identifiant": "46d188c5",
@@ -73,7 +73,7 @@
     "note": "3",
     "location": "Île de France - Paris 20e",
     "equipement": ["Wifi", "Cuisine équipée", "Télévision", "Sèche Cheveux"],
-    "Mots clés": ["Buttes Chaumont", "Laumière", "Studio"]
+    "tags": ["Buttes Chaumont", "Laumière", "Studio"]
   },
   {
     "identifiant": "7af00cd6",
@@ -99,7 +99,7 @@
       "Climatisation",
       "Télévision"
     ],
-    "Mots clés": ["Parmentier", "Marais", "Parc", "Vie nocturne"]
+    "tags": ["Parmentier", "Marais", "Parc", "Vie nocturne"]
   },
   {
     "identifiant": "0979876d",
@@ -127,7 +127,7 @@
       "Chambre Séparée",
       "Parking"
     ],
-    "Mots clés": ["Goncourt", "Proche commerces"]
+    "tags": ["Goncourt", "Proche commerces"]
   },
   {
     "identifiant": "f72a452f",
@@ -148,7 +148,7 @@
     "note": "5",
     "location": "Île de France - Paris 18e",
     "equipement": ["Chambre Séparée", "Parking"],
-    "Mots clés": ["Montmartre", "Culture", "Charme"]
+    "tags": ["Montmartre", "Culture", "Charme"]
   },
   {
     "identifiant": "b4c67936",
@@ -175,7 +175,7 @@
       "Bureau",
       "Parking"
     ],
-    "Mots clés": ["Les transports", "Bon marché", "18ème"]
+    "tags": ["Les transports", "Bon marché", "18ème"]
   },
   {
     "identifiant": "bc6f7112",
@@ -204,7 +204,7 @@
       "Lit King Size",
       "Ascenseur"
     ],
-    "Mots clés": ["Luxe", "Tour Eiffel", "T3", "6ème"]
+    "tags": ["Luxe", "Tour Eiffel", "T3", "6ème"]
   },
   {
     "identifiant": "cb2f9222",
@@ -231,7 +231,7 @@
       "Wifi",
       "Parking"
     ],
-    "Mots clés": ["Montparnasse", "Commerces", "Famille"]
+    "tags": ["Montparnasse", "Commerces", "Famille"]
   },
   {
     "identifiant": "d60ca600",
@@ -258,7 +258,7 @@
       "Wifi",
       "Ascenseur"
     ],
-    "Mots clés": ["Père Lachaise", "11e", "Métro 3", "Métro 2"]
+    "tags": ["Père Lachaise", "11e", "Métro 3", "Métro 2"]
   },
   {
     "identifiant": "2cf259e1",
@@ -278,7 +278,7 @@
     "note": "4",
     "location": "Île de France - Paris 11e",
     "equipement": ["Clic-clac", "Quatre", "Sèche Cheveux", "Wifi"],
-    "Mots clés": ["Marais", "Studio", "Parc"]
+    "tags": ["Marais", "Studio", "Parc"]
   },
   {
     "identifiant": "5323c29b",
@@ -305,13 +305,7 @@
       "LA TÉLÉ",
       "Bouilloire"
     ],
-    "Mots clés": [
-      "Marais",
-      "République",
-      "Studio",
-      "Proche Métros",
-      "Commerces"
-    ]
+    "tags": ["Marais", "République", "Studio", "Proche Métros", "Commerces"]
   },
   {
     "identifiant": "af6d2d48",
@@ -338,7 +332,7 @@
       "Frigo",
       "Bouilloire"
     ],
-    "Mots clés": ["Forêt", "Nature", "Musée d'Écouen"]
+    "tags": ["Forêt", "Nature", "Musée d'Écouen"]
   },
   {
     "identifiant": "7cbb378e",
@@ -368,7 +362,7 @@
       "Cintres",
       "Équipements de base"
     ],
-    "Mots clés": ["Forêt", "Nature", "Grande maison"]
+    "tags": ["Forêt", "Nature", "Grande maison"]
   },
   {
     "identifiant": "ba55a0cc",
@@ -400,7 +394,7 @@
       "Micro-ondes",
       "Parking"
     ],
-    "Mots clés": ["Nature", "Groupe", "Maison"]
+    "tags": ["Nature", "Groupe", "Maison"]
   },
   {
     "identifiant": "1e181317",
@@ -429,7 +423,7 @@
       "Micro-ondes",
       "Parking"
     ],
-    "Mots clés": ["La Défense", "Grenier", "Luxe"]
+    "tags": ["La Défense", "Grenier", "Luxe"]
   },
   {
     "identifiant": "1e180563",
@@ -457,7 +451,7 @@
       "Wifi",
       "Micro-ondes"
     ],
-    "Mots clés": ["Vue Parc", "Apt de Charme"]
+    "tags": ["Vue Parc", "Apt de Charme"]
   },
   {
     "identifiant": "2139a317",
@@ -474,7 +468,7 @@
     "note": "2",
     "location": "Île de France - Paris 20e",
     "equipement": ["Bouilloire", "Wifi", "Micro-ondes"],
-    "Mots clés": ["Vue Parc", "Métro"]
+    "tags": ["Vue Parc", "Métro"]
   },
   {
     "identifiant": "6ff132c6",
@@ -499,7 +493,7 @@
       "Wifi",
       "Micro-ondes"
     ],
-    "Mots clés": ["Studio", "Charmante", "13e"]
+    "tags": ["Studio", "Charmante", "13e"]
   },
   {
     "identifiant": "cb02d69b",
@@ -522,6 +516,6 @@
       "Frigo",
       "Baignoire"
     ],
-    "Mots clés": ["Persienne", "Marais", "Rivoli"]
+    "tags": ["Persienne", "Marais", "Rivoli"]
   }
 ]

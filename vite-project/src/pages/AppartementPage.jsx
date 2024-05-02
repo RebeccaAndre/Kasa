@@ -58,7 +58,7 @@ function AppartementPage() {
       <AppartementPageHeader
         title={appartement.title}
         location={appartement.location}
-        tags={appartement.Mots_clés || []}
+        tags={appartement.tags || []} // Si pas de tags, on met un tableau vide pour éviter les erreurs
         host={appartement.hôte}
         rating={parseInt(appartement.note)}
       />
